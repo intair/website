@@ -2,7 +2,7 @@ var video = document.getElementById('video');
 var volumeControl = document.getElementById('vol-control');
 
 var setVolume = function () {
-	video.volume = this.value / 100;
+	video.volume = this.value / 50;
 };
 
 volumeControl.addEventListener('change', setVolume);
