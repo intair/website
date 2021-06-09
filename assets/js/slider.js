@@ -1,8 +1,8 @@
-var video = document.getElementById('video');
+var music = document.getElementById('music');
 var volumeControl = document.getElementById('vol-control');
 
 var setVolume = function () {
-	video.volume = this.value / 50;
+	music.volume = this.value / 50;
 };
 
 volumeControl.addEventListener('change', setVolume);
