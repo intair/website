@@ -112,7 +112,7 @@ a:hover {
   -webkit-transition: .4s;
   transition-duration: .4s;
   transition-timing-function: ease-out;
-  text-shadow: 0px 0px 30px red;
+  text-shadow: 0px 0px 30px white;
   transform: scale(1.15);
 }
 
@@ -218,7 +218,7 @@ hr.line {
   margin-right: auto;
   text-align: center;
   font-size: 3.5vh;
-  color: red;
+  color: white;
   text-shadow: 1px 1px 6px black;
   padding: 5px;
 }
