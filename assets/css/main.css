@@ -9,11 +9,11 @@ body {
 a {
 	text-decoration: none;
 	transition: 0.6s;
-	color: #ffffff;
+	color: red;
 }
 
 a:hover {
-	color: #fff;
+	color: red;
 }
 
 #video, body {  
@@ -112,7 +112,7 @@ a:hover {
   -webkit-transition: .4s;
   transition-duration: .4s;
   transition-timing-function: ease-out;
-  text-shadow: 0px 0px 30px white;
+  text-shadow: 0px 0px 30px red;
   transform: scale(1.15);
 }
 
@@ -168,13 +168,13 @@ hr.line {
   font-family: 'Titillium Web', sans-serif;
   letter-spacing: -2px;
   font-size: 7vh;
-  color: white;  
+  color: red;  
 }
 .title:hover {
   -webkit-transition: .4s;
   transition-duration: .4s;
   transition-timing-function: ease-out;
-  text-shadow: 0px 0px 30px white;
+  text-shadow: 0px 0px 30px red;
 }
 /* Background Fade */
   @keyframes fadebg {
@@ -218,7 +218,7 @@ hr.line {
   margin-right: auto;
   text-align: center;
   font-size: 3.5vh;
-  color: white;
+  color: red;
   text-shadow: 1px 1px 6px black;
   padding: 5px;
 }
